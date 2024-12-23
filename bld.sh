@@ -1,1 +1,1 @@
-./build.sh libcuml -v -g -n --singlegpu --nolibcumltest
+./build.sh libcuml -v -g -n --singlegpu --nolibcumltest $@

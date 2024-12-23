@@ -120,7 +120,7 @@ endif()
 
 ##############################################################################
 # - Target names -------------------------------------------------------------
-
+set(SPDLOG_USE_STD_FORMAT ON)
 set(CUML_CPP_TARGET "cuml++")
 set(CUML_CPP_BENCH_TARGET "sg_benchmark")
 if(${BUILD_CUML_C_LIBRARY})
